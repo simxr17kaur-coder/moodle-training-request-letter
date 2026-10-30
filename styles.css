@@ -1,0 +1,838 @@
+
+/* ==========================================
+   TRAINING REQUEST LETTER GENERATOR
+   Colourful modern design
+   ========================================== */
+
+:root {
+    --primary: #315b43;
+    --primary-dark: #203e2e;
+    --sage: #dce9dc;
+    --sage-light: #eef4ec;
+    --cream: #f5f1e8;
+    --beige: #eee5d5;
+    --card: #ffffff;
+    --text: #34443a;
+    --muted: #858d84;
+    --border: #e3e8df;
+}
+
+/* PAGE BACKGROUND */
+body#page-local_training_letter-apply {
+    background: linear-gradient(135deg, #f5f1e8, #eaf0e8);
+}
+
+/* MAIN CONTENT */
+body#page-local_training_letter-apply #region-main {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+/* MAIN HEADING */
+body#page-local_training_letter-apply .page-header-headings {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+body#page-local_training_letter-apply .page-header-headings h1 {
+    color: #294b38;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    margin-bottom: 12px;
+}
+
+/* SUBTITLE */
+body#page-local_training_letter-apply .training-subtitle {
+    text-align: center;
+    color: #788477;
+    font-size: 16px;
+    margin: 0 auto 35px;
+}
+
+/* FORM WIDTH */
+body#page-local_training_letter-apply .mform {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* SECTION CARDS */
+body#page-local_training_letter-apply .mform fieldset {
+    background: #ffffff;
+    border: 1px solid #dce6da;
+    border-radius: 18px;
+    padding: 28px 32px 20px;
+    margin-bottom: 27px;
+    box-shadow: 0 8px 25px rgba(42, 72, 48, 0.09);
+    transition: all 0.25s ease;
+}
+
+/* SECTION CARD HOVER */
+body#page-local_training_letter-apply .mform fieldset:hover {
+    box-shadow: 0 12px 30px rgba(42, 72, 48, 0.13);
+    border-color: #b9cfb9;
+}
+
+/* SECTION HEADINGS */
+body#page-local_training_letter-apply .mform fieldset legend {
+    float: none;
+    width: auto;
+    padding: 7px 16px;
+    color: #ffffff;
+    background: #315b43;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* FIELD LABELS */
+body#page-local_training_letter-apply .mform .col-form-label {
+    color: #344b3b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* TEXT INPUTS */
+body#page-local_training_letter-apply .mform input.form-control,
+body#page-local_training_letter-apply .mform textarea.form-control,
+body#page-local_training_letter-apply .mform select {
+    min-height: 46px;
+    padding: 11px 14px;
+    border: 1px solid #d7e2d5;
+    border-radius: 10px;
+    background: #f8faf6;
+    color: #34443a;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+/* COMPANY ADDRESS */
+body#page-local_training_letter-apply .mform textarea.form-control {
+    min-height: 110px;
+}
+
+/* INPUT HOVER */
+body#page-local_training_letter-apply .mform input.form-control:hover,
+body#page-local_training_letter-apply .mform textarea.form-control:hover,
+body#page-local_training_letter-apply .mform select:hover {
+    border-color: #91ae95;
+    background: #ffffff;
+}
+
+/* INPUT FOCUS */
+body#page-local_training_letter-apply .mform .form-control:focus {
+    background: #ffffff;
+    border-color: #547e5d;
+    box-shadow: 0 0 0 4px rgba(84, 126, 93, 0.15);
+    outline: none;
+}
+
+/* FIELD SPACING */
+body#page-local_training_letter-apply .mform .fitem {
+    margin-bottom: 20px;
+}
+
+/* DATE SELECTORS */
+body#page-local_training_letter-apply .mform .felement select {
+    border-radius: 8px;
+}
+
+/* SUBMIT BUTTON AREA */
+body#page-local_training_letter-apply .mform .fitem_actionbuttons {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 35px;
+}
+
+/* SUBMIT BUTTON */
+body#page-local_training_letter-apply .mform .btn-primary {
+    background: linear-gradient(135deg, #315b43, #477b55);
+    border: none;
+    color: #ffffff;
+    padding: 14px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    box-shadow: 0 6px 16px rgba(49, 91, 67, 0.2);
+    transition: all 0.25s ease;
+}
+
+/* BUTTON HOVER */
+body#page-local_training_letter-apply .mform .btn-primary:hover {
+    background: linear-gradient(135deg, #203e2e, #315b43);
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px rgba(49, 91, 67, 0.27);
+}
+
+/* CANCEL BUTTON */
+body#page-local_training_letter-apply .mform .btn-secondary {
+    background: #e6eee4;
+    border: 1px solid #d5e2d3;
+    color: #315b43;
+    border-radius: 30px;
+    padding: 13px 28px;
+}
+
+/* ERROR MESSAGES */
+body#page-local_training_letter-apply .mform .invalid-feedback {
+    color: #b94d4d;
+}
+
+/* REQUIRED FIELD INDICATOR */
+body#page-local_training_letter-apply .mform .required {
+    color: #bd705e;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+
+    body#page-local_training_letter-apply #region-main {
+        padding: 15px 8px;
+    }
+
+    body#page-local_training_letter-apply .page-header-headings h1 {
+        font-size: 26px;
+    }
+
+    body#page-local_training_letter-apply .mform fieldset {
+        padding: 20px 15px;
+        border-radius: 13px;
+    }
+
+    body#page-local_training_letter-apply .mform fieldset legend {
+        font-size: 15px;
+    }
+}
+
+/* DARK BACKGROUND FOR MAIN HEADING */
+body.training-request-page .page-header-headings h1 {
+    background: #203e2e !important;
+    color: #f5f1e8 !important;
+    padding: 22px 20px;
+    border-radius: 14px;
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 15px;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    box-shadow: 0 6px 18px rgba(32, 62, 46, 0.2);
+}
+
+/* ==========================================
+   MY TRAINING REQUESTS PAGE
+   ========================================== */
+
+body.training-requests-list-page {
+    background: linear-gradient(135deg, #f5f1e8, #eaf0e8);
+}
+
+body.training-requests-list-page #region-main {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+/* PAGE HEADING */
+body.training-requests-list-page .page-header-headings h1 {
+    background: #203e2e;
+    color: #f5f1e8;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+/* SECTION HEADING */
+body.training-requests-list-page .requests-section-heading {
+    color: #294b38;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+/* TABLE CARD */
+.training-requests-card {
+    background: #ffffff;
+    padding: 25px;
+    border: 1px solid #dce6da;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(42, 72, 48, 0.09);
+    overflow-x: auto;
+}
+
+/* TABLE DESIGN */
+.training-requests-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.training-requests-table th {
+    background: #315b43;
+    color: #ffffff !important;
+    padding: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.training-requests-table td {
+    padding: 15px;
+    color: #34443a;
+    border-bottom: 1px solid #e3e8df;
+    vertical-align: middle;
+}
+
+.training-requests-table tr:hover td {
+    background: #f3f7f1;
+}
+
+/* STATUS LABELS */
+.request-status {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.status-pending {
+    background: #fff0cf;
+    color: #956313;
+}
+
+.status-approved {
+    background: #dcefe0;
+    color: #28613a;
+}
+
+.status-rejected {
+    background: #f8dddd;
+    color: #a33434;
+}
+
+/* DOWNLOAD PDF LINK */
+.download-letter-link {
+    display: inline-block;
+    background: #315b43;
+    color: #ffffff !important;
+    padding: 9px 15px;
+    border-radius: 20px;
+    text-decoration: none !important;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.download-letter-link:hover {
+    background: #203e2e;
+    color: #ffffff !important;
+}
+
+/* UNAVAILABLE LETTER */
+.letter-unavailable {
+    color: #858d84;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* EMPTY REQUEST CARD */
+.requests-empty-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #dce6da;
+    box-shadow: 0 8px 25px rgba(42, 72, 48, 0.09);
+    text-align: center;
+}
+
+/* NEW REQUEST BUTTON */
+.new-request-button {
+    display: inline-block;
+    background: #315b43;
+    color: #ffffff !important;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none !important;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.new-request-button:hover {
+    background: #203e2e;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .training-requests-card {
+        padding: 12px;
+    }
+
+    .training-requests-table th,
+    .training-requests-table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    body.training-requests-list-page .page-header-headings h1 {
+        font-size: 24px;
+    }
+}
+
+/* ==========================================
+   COORDINATOR DASHBOARD
+   ========================================== */
+
+body.training-coordinator-page {
+    background: linear-gradient(135deg, #f5f1e8, #eaf0e8);
+}
+
+body.training-coordinator-page #region-main {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    max-width: 1300px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+/* MAIN HEADING */
+body.training-coordinator-page .page-header-headings h1 {
+    background: #203e2e;
+    color: #f5f1e8;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+/* SECTION HEADING */
+body.training-coordinator-page .coordinator-section-heading {
+    color: #294b38;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+/* TABLE CARD */
+.coordinator-requests-card {
+    background: #ffffff;
+    padding: 25px;
+    border: 1px solid #dce6da;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(42, 72, 48, 0.09);
+    overflow-x: auto;
+}
+
+/* TABLE */
+.coordinator-requests-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.coordinator-requests-table th {
+    background: #315b43;
+    color: #ffffff !important;
+    padding: 14px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.coordinator-requests-table td {
+    padding: 14px;
+    color: #34443a;
+    border-bottom: 1px solid #e3e8df;
+    vertical-align: middle;
+}
+
+.coordinator-requests-table tr:hover td {
+    background: #f3f7f1;
+}
+
+/* REMARKS TEXTAREA */
+.coordinator-remarks {
+    min-width: 190px;
+    border: 1px solid #d7e2d5;
+    border-radius: 9px;
+    background: #f8faf6;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.coordinator-remarks:focus {
+    border-color: #547e5d;
+    box-shadow: 0 0 0 3px rgba(84, 126, 93, 0.15);
+}
+
+/* APPROVE BUTTON */
+.coordinator-approve {
+    background: #315b43 !important;
+    border-color: #315b43 !important;
+    color: #ffffff !important;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+}
+
+/* REJECT BUTTON */
+.coordinator-reject {
+    background: #a94442 !important;
+    border-color: #a94442 !important;
+    color: #ffffff !important;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+}
+
+/* COMPLETED ACTION */
+.coordinator-action-complete {
+    color: #315b43;
+    font-weight: 600;
+}
+
+/* STATUS LABELS */
+body.training-coordinator-page .request-status {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+body.training-coordinator-page .status-pending {
+    background: #fff0cf;
+    color: #956313;
+}
+
+body.training-coordinator-page .status-approved {
+    background: #dcefe0;
+    color: #28613a;
+}
+
+body.training-coordinator-page .status-rejected {
+    background: #f8dddd;
+    color: #a33434;
+}
+
+/* EMPTY CARD */
+.coordinator-empty-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #dce6da;
+    box-shadow: 0 8px 25px rgba(42, 72, 48, 0.09);
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .coordinator-requests-card {
+        padding: 12px;
+    }
+
+    .coordinator-requests-table th,
+    .coordinator-requests-table td {
+        padding: 9px;
+        font-size: 12px;
+    }
+
+    body.training-coordinator-page .page-header-headings h1 {
+        font-size: 24px;
+    }
+}
+
+
+/* =================================
+   TRAINING PORTAL MAIN DASHBOARD
+================================= */
+
+body.training-portal-page {
+    background-color: #f5f3ec;
+}
+
+.training-portal-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.training-portal-container h2 {
+    color: #244b38;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.training-portal-container > p {
+    color: #6d756e;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.training-portal-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.training-portal-card {
+    background-color: #ffffff;
+    border: 1px solid #e4e6df;
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 4px 12px rgba(36, 75, 56, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.training-portal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(36, 75, 56, 0.13);
+}
+
+.training-portal-card h3 {
+    color: #244b38;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.training-portal-card p {
+    color: #737b73;
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 48px;
+}
+
+.training-portal-button {
+    display: inline-block;
+    background-color: #315c45;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 11px 22px;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.training-portal-button:hover {
+    background-color: #1d3e2d;
+    color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+    .training-portal-container {
+        padding: 18px;
+        margin: 20px auto;
+    }
+
+    .training-portal-container h2 {
+        font-size: 24px;
+    }
+}
+
+
+/* =====================================
+   NEW TRAINING PORTAL WELCOME DESIGN
+===================================== */
+
+body.training-portal-page {
+    background: #f5f3ec;
+}
+
+.training-portal-container {
+    max-width: 1150px;
+    margin: 35px auto;
+    padding: 25px;
+}
+
+/* HERO SECTION */
+
+.portal-hero {
+    background: linear-gradient(135deg, #244b38, #52765d);
+    color: #ffffff;
+    text-align: center;
+    padding: 55px 30px;
+    border-radius: 18px;
+    margin-bottom: 45px;
+    box-shadow: 0 8px 22px rgba(36, 75, 56, 0.15);
+}
+
+.portal-logo {
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 18px;
+}
+
+.portal-main-title {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.portal-college-name {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.portal-subtitle {
+    color: #e5eadf;
+    font-size: 15px;
+}
+
+.portal-description {
+    max-width: 720px;
+    margin: 22px auto 0;
+    line-height: 1.8;
+    color: #f1f4ed;
+}
+
+/* SECTION HEADING */
+
+.portal-section-title {
+    color: #244b38;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* ACTION CARDS */
+
+.training-portal-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 55px;
+}
+
+.training-portal-card {
+    background: #ffffff;
+    padding: 30px;
+    border: 1px solid #e4e6df;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(36, 75, 56, 0.07);
+    transition: 0.25s ease;
+}
+
+.training-portal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 22px rgba(36, 75, 56, 0.13);
+}
+
+.portal-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.training-portal-card h3 {
+    color: #244b38;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.training-portal-card p {
+    color: #737b73;
+    line-height: 1.7;
+    min-height: 70px;
+}
+
+.training-portal-button {
+    display: inline-block;
+    background: #315c45;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 12px 23px;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.training-portal-button:hover {
+    background: #1d3e2d;
+}
+
+/* HOW IT WORKS */
+
+.portal-how-it-works {
+    background: #e9ede4;
+    padding: 35px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.portal-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.portal-step {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.portal-step-number {
+    display: inline-block;
+    color: #315c45;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.portal-step h3 {
+    color: #244b38;
+}
+
+.portal-step p {
+    color: #737b73;
+    line-height: 1.7;
+}
+
+/* FOOTER */
+
+.portal-footer {
+    text-align: center;
+    border-top: 1px solid #d9ded4;
+    padding-top: 20px;
+    margin-top: 35px;
+    color: #69736a;
+    font-size: 13px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .training-portal-container {
+        padding: 12px;
+    }
+
+    .portal-hero {
+        padding: 35px 18px;
+    }
+
+    .portal-main-title {
+        font-size: 26px;
+    }
+
+    .portal-how-it-works {
+        padding: 20px;
+    }
+}
