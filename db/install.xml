@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/training_letter/db"
+       VERSION="2026102900"
+       COMMENT="Training letter plugin database">
+
+  <TABLES>
+    <TABLE NAME="local_training_letter"
+           COMMENT="Student training requests">
+
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10"
+               NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="10"
+               NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="studentname" TYPE="char" LENGTH="100"
+               NOTNULL="true" DEFAULT=""/>
+        <FIELD NAME="rollnumber" TYPE="char" LENGTH="30"
+               NOTNULL="true" DEFAULT=""/>
+        <FIELD NAME="branch" TYPE="char" LENGTH="100"
+               NOTNULL="true" DEFAULT=""/>
+        <FIELD NAME="semester" TYPE="int" LENGTH="2"
+               NOTNULL="true" DEFAULT="1"/>
+        <FIELD NAME="companyname" TYPE="char" LENGTH="150"
+               NOTNULL="true" DEFAULT=""/>
+        <FIELD NAME="companyaddress" TYPE="text"
+               NOTNULL="true"/>
+        <FIELD NAME="trainingtype" TYPE="char" LENGTH="30"
+               NOTNULL="true" DEFAULT="Software"/>
+        <FIELD NAME="duration" TYPE="char" LENGTH="30"
+               NOTNULL="true" DEFAULT="6 Weeks"/>
+        <FIELD NAME="startdate" TYPE="int" LENGTH="10"
+               NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="joindate" TYPE="int" LENGTH="10"
+               NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="status" TYPE="char" LENGTH="20"
+               NOTNULL="true" DEFAULT="Pending"/>
+        <FIELD NAME="coordinatorid" TYPE="int" LENGTH="10"
+               NOTNULL="false"/>
+        <FIELD NAME="remarks" TYPE="text"
+               NOTNULL="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10"
+               NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10"
+               NOTNULL="true" DEFAULT="0"/>
+      </FIELDS>
+
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+        <KEY NAME="userid_fk" TYPE="foreign"
+             FIELDS="userid" REFTABLE="user" REFFIELDS="id"/>
+      </KEYS>
+
+    </TABLE>
+  </TABLES>
+</XMLDB>
